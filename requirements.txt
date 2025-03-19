@@ -1,0 +1,15 @@
+# Python packages
+confluent-kafka==2.8.2
+attrs==24.2.0
+cachetools==5.5.2
+authlib==1.2.1
+
+# Additional installation steps
+# Install setuptools, wheel, and Cython
+setuptools
+wheel
+Cython<3
+
+# Install fastavro and avro
+fastavro==1.7.3
+avro==1.12.0

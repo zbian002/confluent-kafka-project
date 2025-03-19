@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "UserLogin",
+  "fields": [
+    {"name": "user_id", "type": "string"},
+    {"name": "app_version", "type": "string"},
+    {"name": "ip", "type": "string"},
+    {"name": "locale", "type": "string"},
+    {"name": "device_id", "type": "string"},
+    {"name": "timestamp", "type": "long"},
+    {"name": "device_type", "type": "string"}
+  ]
+}
