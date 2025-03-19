@@ -54,4 +54,9 @@ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json" \
 echo "Installing Python dependencies..."
 pip install -r requirements.txt
 
+# Step 5: Run the test code
+echo "Running tests..."
+export PYTHONPATH="${PYTHONPATH}:${ROOT_DIR}/src"  # Add src directory to PYTHONPATH
+python3 -m unittest src/tests/test_kafka_consumer.py
+
 echo "Setup completed successfully!"

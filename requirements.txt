@@ -1,5 +1,5 @@
 # Python packages
-confluent-kafka==2.8.2
+confluent-kafka==1.9.0
 attrs==24.2.0
 cachetools==5.5.2
 authlib==1.2.1
